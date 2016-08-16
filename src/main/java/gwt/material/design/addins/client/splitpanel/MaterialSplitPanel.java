@@ -23,6 +23,7 @@ package gwt.material.design.addins.client.splitpanel;
 
 import com.google.gwt.dom.client.Document;
 import com.google.gwt.dom.client.Element;
+
 import gwt.material.design.addins.client.MaterialAddins;
 import gwt.material.design.addins.client.splitpanel.constants.Dock;
 import gwt.material.design.client.MaterialDesignBase;
@@ -285,7 +286,7 @@ public class MaterialSplitPanel extends MaterialWidget {
     public double getBarPosition() {
         return barPosition / 100;
     }
-
+    
     /**
      * Set the bar position in percent
      * @param barPosition
